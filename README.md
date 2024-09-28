@@ -21,15 +21,15 @@ This project provides a FastAPI-based web service for detecting Arabic book titl
 
 ## Requirements
 
-- **Python 3.10 or later**:
-- **FastAPI**:
-- **Uvicorn**:
-- **Torch**:
-- **Ultralytics YOLOv8**:
-- **EasyOCR**:
-- **Hugging Face Transformers**:
-- **SpellChecker**:
-- **Docker**:
+- **Python 3.10 or later**
+- **FastAPI**
+- **Uvicorn**
+- **Torch**
+- **Ultralytics YOLOv8**
+- **EasyOCR**
+- **Hugging Face Transformers**
+- **SpellChecker**
+- **Docker**
 
 ## Model Comparison: Performance of Different Models
 
