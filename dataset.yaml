@@ -1,0 +1,5 @@
+train: /home/abdelrhman/work/validify_task/yolo_data/images/train  # Path to training images
+val: /home/abdelrhman/work/validify_task/yolo_data/images/val      # Path to validation images
+
+nc: 1  # Number of classes (in your case, 'Title')
+names: ['Title']  # Class names

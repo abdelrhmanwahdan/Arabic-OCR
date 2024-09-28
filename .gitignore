@@ -1,0 +1,6 @@
+Book/
+predictions/
+quantized_models/
+runs/
+yolo_data/
+__pycache__/

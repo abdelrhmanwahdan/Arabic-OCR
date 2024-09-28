@@ -1,0 +1,12 @@
+# Ignore unnecessary directories
+Book/
+predictions/
+__pycache__/
+quantized_models/
+runs/
+yolo_data/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
