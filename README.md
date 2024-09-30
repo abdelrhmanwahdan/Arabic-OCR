@@ -9,7 +9,7 @@ This project provides a FastAPI-based web service for detecting Arabic book titl
 
 - **Spelling Correction**: Extracted text is passed through a spell-checking algorithm using the `SpellChecker` library to ensure the text is corrected for common spelling errors.
 
-- **BERT-based Language Model Correction**: Further correction of the recognized text is done using a BERT-based masked language model (`aubmindlab/bert-base-arabertv02`). This model predicts masked tokens and corrects language-specific errors, improving the quality of OCR results.
+- **AraBERT-based Language Model Correction**: Further correction of the recognized text is done using a AraBERT-based masked language model (`aubmindlab/bert-base-arabertv02`). This model predicts masked tokens and corrects language-specific errors, improving the quality of OCR results.
 
 - **Multi-Precision YOLO Model Support**: The YOLO model has been exported in three formats (PyTorch, ONNX, FP16) to compare performance across different inference settings. The API uses the model to identify book titles and returns the most confident results.
 
@@ -95,7 +95,7 @@ The API will return a JSON object containing the results of the object detection
   "bounding_box": [489, 311, 1094, 444],
   "detected_text": "شياء تؤل",
   "corrected_text_spell": "شياء تقل",
-  "corrected_text_bert": "شيا لم تقل",
+  "corrected_text_AraBERT": "شيا لم تقل",
   "confidence": 0.7135,
   "roi_image_path": "./predictions/roi_20240927_181106_489_311.jpg"
 }
